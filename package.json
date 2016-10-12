@@ -81,9 +81,5 @@
     "prepublish": "npm run build",
     "test": "nightwatch -c test/nightwatch.conf.js",
     "test:ui": "gulp test:ui"
-  },
-  "engines": {
-    "node": ">=6.0.0",
-    "npm": ">=3.0.0"
   }
 }
